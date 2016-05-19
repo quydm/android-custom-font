@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textview_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textview_bold_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/edittext_normal"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_normal"
+            android:padding="5dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edittext_bold"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_bold"
+            android:padding="5dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittext_italic"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_italic"
+            android:padding="5dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edittext_bold_italic"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_bold_italic"
+            android:padding="5dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button_bold_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/checkbox_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <CheckBox
+            android:id="@+id/checkbox_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/checkbox_bold_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <me.quydo.androidcustomfont.customview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <me.quydo.androidcustomfont.customview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomEditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_normal"
+            android:padding="5dp"
+            android:textStyle="normal" />
+
+        <me.quydo.androidcustomfont.customview.CustomEditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_bold"
+            android:padding="5dp"
+            android:textStyle="bold" />
+
+        <me.quydo.androidcustomfont.customview.CustomEditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_italic"
+            android:padding="5dp"
+            android:textStyle="italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomEditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext_bg"
+            android:gravity="left|start|center_vertical"
+            android:hint="@string/text_bold_italic"
+            android:padding="5dp"
+            android:textStyle="bold|italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <me.quydo.androidcustomfont.customview.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <me.quydo.androidcustomfont.customview.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_normal"
+            android:textStyle="normal" />
+
+        <me.quydo.androidcustomfont.customview.CustomCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold"
+            android:textStyle="bold" />
+
+        <me.quydo.androidcustomfont.customview.CustomCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_italic"
+            android:textStyle="italic" />
+
+        <me.quydo.androidcustomfont.customview.CustomCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/text_bold_italic"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</ScrollView>

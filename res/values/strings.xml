@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Android Custom Font</string>
+    <string name="text_normal">Normal</string>
+    <string name="text_bold">Bold</string>
+    <string name="text_italic">Italic</string>
+    <string name="text_bold_italic">BoldItalic</string>
+
+</resources>
